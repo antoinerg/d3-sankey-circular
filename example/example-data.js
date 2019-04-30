@@ -1,3 +1,23 @@
+let broken = {
+      "nodes": [
+        { "name": "A"},
+        { "name": "B"},
+        { "name": "C"},
+        { "name": "D"},
+        { "name": "E"}
+      ],
+      "links": [
+          { "source": "C", "target": "A", "value": 1},
+          { "source": "C", "target": "E", "value": 1},
+          { "source": "E", "target": "C", "value": 1},
+          { "source": "C", "target": "D", "value": 1},
+          { "source": "D", "target": "C", "value": 1},
+          { "source": "A", "target": "E", "value": 1},
+          { "source": "B", "target": "C", "value": 1},
+          { "source": "A", "target": "B", "value": 1}
+      ]
+}
+
 let data2 = {
       "nodes": [
         { "name": "startA", "col": 0 },

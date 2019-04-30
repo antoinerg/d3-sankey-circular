@@ -3,7 +3,7 @@
     var width = 1100;
     var height = 500;
 
-    let data = data2;
+    let data = broken;
     var sankey = d3.sankeyCircular()
       .nodeWidth(10)
       .nodePadding(20) //note that this will be overridden by nodePaddingRatio
